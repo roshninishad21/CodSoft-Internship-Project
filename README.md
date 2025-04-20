@@ -73,12 +73,13 @@ Random Forest slightly outperformed Logistic Regression in accuracy and overall 
 
 🧠 Key Learnings
 
-Importance of data preprocessing in model performance
+. Importance of data preprocessing in model performance
 
-Comparison between a simple linear classifier and an ensemble method
+. Comparison between a simple linear classifier and an ensemble method
 
-How to handle missing and categorical data effectively
+. How to handle missing and categorical data effectively
 
 📌 Conclusion
+
 This project helped strengthen my foundational understanding of classification algorithms and data handling in machine learning. It demonstrates how basic ML techniques can be applied to real-world historical data to make insightful predictions.
 
