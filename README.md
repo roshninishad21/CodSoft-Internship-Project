@@ -1,60 +1,84 @@
-🚀 CodSoft Internship Projects
-Welcome to my repository containing Machine Learning projects completed as part of the CodSoft Data Science Internship. These projects demonstrate my understanding of data preprocessing, exploratory data analysis, feature engineering, and implementing supervised learning models using Logistic Regression and Random Forest Classifier.
+🚢 Titanic Survival Prediction
 
-🔍 Projects Overview
-1. 🎯 Titanic Survival Prediction
-Predict whether a passenger survived the Titanic disaster using features like age, gender, class, and fare.
+This project is part of my CodSoft Data Science Internship, where I built a predictive model to determine passenger survival in the Titanic disaster using supervised machine learning algorithms: Logistic Regression and Random Forest Classifier.
 
-Dataset: Kaggle - Titanic
+📌 Objective
+To predict whether a passenger survived the Titanic shipwreck based on features like gender, age, class, fare, and more using classification models.
 
-Models Used: Logistic Regression, Random Forest Classifier
+📁 Dataset
+Source: Kaggle - Titanic: Machine Learning from Disaster
 
-Evaluation Metrics: Accuracy, Confusion Matrix, Classification Report
+The dataset contains information about:
 
-2. 💳 Credit Card Fraud Detection
-Identify fraudulent credit card transactions using anonymized features.
+PassengerId, Name, Sex, Age
 
-Dataset: Kaggle - Credit Card Fraud Detection
+Pclass (ticket class), Fare, Embarked
 
-Imbalanced Dataset Handling: SMOTE / Undersampling techniques (if used)
+SibSp (siblings/spouses aboard), Parch (parents/children aboard)
 
-Models Used: Logistic Regression, Random Forest Classifier
+Survived (target variable: 0 = No, 1 = Yes)
 
-Evaluation Metrics: Precision, Recall, F1-score, ROC-AUC
+🧪 Models Used
 
-3. 🌸 Iris Flower Classification
-Classify iris flowers into species (Setosa, Versicolor, Virginica) based on sepal and petal measurements.
+. Logistic Regression – A linear model for binary classification.
 
-Dataset: UCI Machine Learning Repository - Iris Dataset
+. Random Forest Classifier – An ensemble method based on decision trees.
 
-Models Used: Logistic Regression, Random Forest Classifier
+⚙️ Steps Involved
 
-Evaluation Metrics: Accuracy, Confusion Matrix, Classification Report
+. Exploratory Data Analysis (EDA)
 
-📊 Tools & Libraries
+. Visualizing survival distribution
+
+. Analyzing feature impact (e.g., gender, class)
+
+. Data Preprocessing
+
+. Handling missing values
+
+. Encoding categorical variables
+
+. Feature scaling
+
+. Model Training & Evaluation
+
+. Splitting dataset into train and test sets
+
+. Training Logistic Regression and Random Forest models
+
+Evaluating using:
+
+. Accuracy
+
+. Confusion Matrix
+
+. Classification Report
+
+📊 Results
+
+Model	Accuracy
+Logistic Regression	~80%
+Random Forest	~83%
+Random Forest slightly outperformed Logistic Regression in accuracy and overall robustness.
+
+🧰 Libraries Used
 
 . Python
 
 . Pandas, NumPy
 
-. Matplotlib, Seaborn (for EDA and visualization)
+. Matplotlib, Seaborn
 
-. Scikit-learn (for modeling and evaluation)
+. Scikit-learn (sklearn)
 
-. Jupyter Notebook
+🧠 Key Learnings
 
-🧠 Key Concepts Covered
+Importance of data preprocessing in model performance
 
-. Data Cleaning & Preprocessing
+Comparison between a simple linear classifier and an ensemble method
 
-. Feature Selection & Engineering
+How to handle missing and categorical data effectively
 
-. Model Training & Evaluation
-
-. Handling Imbalanced Datasets
-
-Performance Comparison of Classifiers
-
-✅ Outcomes
-These projects helped strengthen my foundation in supervised learning and allowed me to apply ML algorithms to real-world datasets with practical significance.
+📌 Conclusion
+This project helped strengthen my foundational understanding of classification algorithms and data handling in machine learning. It demonstrates how basic ML techniques can be applied to real-world historical data to make insightful predictions.
 
