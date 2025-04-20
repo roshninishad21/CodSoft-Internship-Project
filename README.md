@@ -32,24 +32,26 @@ Models Used: Logistic Regression, Random Forest Classifier
 Evaluation Metrics: Accuracy, Confusion Matrix, Classification Report
 
 📊 Tools & Libraries
-Python
 
-Pandas, NumPy
+. Python
 
-Matplotlib, Seaborn (for EDA and visualization)
+. Pandas, NumPy
 
-Scikit-learn (for modeling and evaluation)
+. Matplotlib, Seaborn (for EDA and visualization)
 
-Jupyter Notebook
+. Scikit-learn (for modeling and evaluation)
+
+. Jupyter Notebook
 
 🧠 Key Concepts Covered
-Data Cleaning & Preprocessing
 
-Feature Selection & Engineering
+. Data Cleaning & Preprocessing
 
-Model Training & Evaluation
+. Feature Selection & Engineering
 
-Handling Imbalanced Datasets
+. Model Training & Evaluation
+
+. Handling Imbalanced Datasets
 
 Performance Comparison of Classifiers
 
